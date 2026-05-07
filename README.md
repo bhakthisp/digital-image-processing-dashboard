@@ -1,58 +1,76 @@
-# Image Enhancement and Restoration
+# Digital Image Processing Dashboard
 
-This project is developed using Python, OpenCV, NumPy, and Streamlit to implement various image enhancement, filtering, and restoration techniques.
+This project is developed using Python, OpenCV, NumPy, SciPy, and Streamlit to implement various Digital Image Processing techniques including image enhancement, restoration, segmentation, morphology, and color image processing.
 
 ## Features
 
-### Enhancement Techniques
+# Image Enhancement & Restoration
 
-* Negative Transformation
-* Log Transformation
-* Gamma Correction
-* Contrast Stretching
+### Enhancement Techniques
+- Negative Transformation
+- Log Transformation
+- Gamma Correction
+- Contrast Stretching
 
 ### Filtering Techniques
-
-* Mean Filter
-* Median Filter
-* Gaussian Filter
-* Sharpening Filter
+- Mean Filter
+- Median Filter
+- Gaussian Filter
+- Sharpening Filter
 
 ### Restoration Techniques
+- Noise Removal
+- Deblurring
+- Wiener Filter
 
-* Noise Removal
-* Deblurring
-* Wiener Filter
+---
+
+# Segmentation, Morphology & Color Processing
+
+### Segmentation Techniques
+- Thresholding
+- Sobel Edge Detection
+- K-Means Segmentation
+
+### Morphological Operations
+- Erosion
+- Dilation
+- Opening
+- Closing
+
+### Color Processing Techniques
+- RGB to HSV Conversion
+- Color Enhancement
+- Color Smoothing
+
+---
 
 ## Technologies Used
 
-* Python
-* OpenCV
-* NumPy
-* Streamlit
-* SciPy
+- Python
+- OpenCV
+- NumPy
+- SciPy
+- Streamlit
+
+---
 
 ## How to Run
 
 Install dependencies:
-
-```bash
-pip install -r requirement.txt
-```
+pip install -r requirements.txt
 
 Run the project:
-
-```bash
 streamlit run app.py
-```
 
-## Input Formats
+Input Formats
+JPG
+PNG
+JPEG
+Project Objective
 
-* JPG
-* PNG
-* JPEG
+To implement and demonstrate important Digital Image Processing techniques through an interactive dashboard where users can upload images and apply various processing operations dynamically.
 
-## Project Objective
+Live Demo
 
-To improve and restore digital image quality using image processing techniques through an interactive dashboard.
-The deployed link : https://image-enhancement-restoration.streamlit.app/
+https://image-enhancement-restoration.streamlit.app/
